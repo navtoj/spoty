@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "bun install && bun run dev",
+			"detail": "bun install && bun run dev",
+			"label": "Start Development Server",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}
